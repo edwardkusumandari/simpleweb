@@ -136,7 +136,7 @@ body {
   color: #333;
 }
 .container {
-  width: 800px;
+  width: 900px;
   margin: auto;
   background-color: #fff;
 }
@@ -144,21 +144,24 @@ body {
   padding: 20px;
   padding-bottom: 10px;
 }
-.header .judul {
-  font-size: 40px;
+.header .judul a {
+  font-size: 60px;
   font-weight: bold;
+  text-decoration: none;
+  font-family: monospace;
+  color: lightskyblue;
 }
 .header ul li {
   display: inline-block;
   margin-top: 20px;
   margin-right: 10px;
 }
-.header a {
+.header ul li a {
   text-decoration: none;
   color: salmon;
   padding: 3px;
 }
-.header a:hover {
+.header ul li a:hover {
   background-color: yellowgreen;
   color: white;
 }
@@ -184,6 +187,10 @@ body {
 .content .penulis a {
   color: salmon;
   text-decoration: none;
+}
+.content .penulis a:hover {
+  background-color: yellowgreen;
+  color: white;
 }
 .content p {
   margin-bottom: 15px;
