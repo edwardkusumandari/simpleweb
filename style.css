@@ -150,10 +150,13 @@ body {
   text-decoration: none;
   font-family: monospace;
   color: lightskyblue;
+  float: right;
+  padding-bottom: 50px;
+  font-style: oblique;
 }
 .header ul li {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-right: 10px;
 }
 .header ul li a {
